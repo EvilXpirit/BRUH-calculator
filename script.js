@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         display.value = eval(display.value);
     }
 
-    // Event listeners for buttons
     document.querySelector("input[value='AC']").addEventListener('click', clearDisplay);
     document.querySelector("input[value='DE']").addEventListener('click', deleteCharacter);
     document.querySelector("input[value='.']").addEventListener('click', () => addToDisplay('.'));
